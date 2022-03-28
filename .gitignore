@@ -1,15 +1,15 @@
 **/.idea
 **.iml
 **/target
-/L1.1 Simple web server
-/L2.1 Authorization
-/L3.1 JDBC
-/L3.2 ORM
-/L4.1 WebSockets
-/L5.1 Tests
-/L6.1 Properties
-/L6.2 IO
-/L6.3 XML
-/L6.4 NIO
-/L7.1 Run
-/L7.2 Race
+**/L1.1 Simple web server
+**/L2.1 Authorization
+**/L3.1 JDBC
+**/L3.2 ORM
+**/L4.1 WebSockets
+**/L5.1 Tests
+**/L6.1 Properties
+**/L6.2 IO
+**/L6.3 XML
+**/L6.4 NIO
+**/L7.1 Run
+**/L7.2 Race
