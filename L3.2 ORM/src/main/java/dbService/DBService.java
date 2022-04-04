@@ -107,4 +107,17 @@ public class DBService {
         ServiceRegistry serviceRegistry = builder.build();
         return configuration.buildSessionFactory(serviceRegistry);
     }
+
+    public UsersDataSet getUserByLogin(String login) throws DBException {
+
+        try {
+            Session session = sessionFactory.openSession();
+            UsersDAO dao = new UsersDAO(session);
+            UsersDataSet dataSet = dao.getUserByLogin(login);
+            session.close();
+            return dataSet;
+        } catch (HibernateException e) {
+            throw new DBException(e);
+        }
+    }
 }
