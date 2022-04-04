@@ -10,7 +10,6 @@ import java.io.IOException;
 
 /**
  * Created by nastiadanchenko
- *
  */
 public class SignInServlet extends HttpServlet {
     private final AccountService accountService;
@@ -39,7 +38,7 @@ public class SignInServlet extends HttpServlet {
 
         response.setContentType("text/html;charset=utf-8");
         response.setStatus(HttpServletResponse.SC_OK);
-        response.getWriter().println("Authorized");
+        response.getWriter().println("Authorized: " + login);
     }
 
 
