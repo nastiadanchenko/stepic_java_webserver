@@ -26,7 +26,7 @@
 
 
 
-## Ссылки на сертификаты об завершении курса
+## Cертификаты об завершении курса
    
 ![Сертификат первой части](https://github.com/nastiadanchenko/stepic_java_webserver/blob/master/stepik-certificate-146-5ac7c27%20(1).jpg)
 ![Сертификат второй части](https://github.com/nastiadanchenko/stepic_java_webserver/blob/master/stepik-certificate-186-acdb63b%20(1).jpg)
